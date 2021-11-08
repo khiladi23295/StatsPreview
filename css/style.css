@@ -1,0 +1,99 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+}
+
+.main-card{
+  background-color: hsl(244, 38%, 16%);
+  color: white;
+  width: 64rem;
+  height: 21rem;
+  margin: 7rem 11rem;
+  border-radius: 5px;
+}
+
+.main-img{
+  border-radius: 5px;
+  width: 25rem;
+  height: 21rem;
+  float: right;
+}
+
+.card1{
+  padding: 0 190px 0 30px;
+}
+
+.card{
+  background-color: hsl(244, 38%, 16%);
+  border: transparent;
+  line-height: 1;
+}
+
+.card-title{
+  font-size: 20px;
+}
+
+.card-text{
+  font-size: 11px;
+  color: hsla(0, 0%, 100%, 0.6)
+}
+
+
+h1{
+  width: 40%;
+  padding: 40px 0 10px 60px;
+  line-height: 1;
+  font-size: 33px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+h3{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: normal;
+}
+
+.desc{
+  width: 35%;
+  padding: 10px 0 0 60px;
+  line-height: 1.2;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: normal;
+}
+
+@media (max-width:768px) {
+  .main-card{
+    width: 21rem;
+    height: 52rem;
+  }
+
+  .main-img{
+    width: 21rem;
+    height: 18rem;
+  }
+
+  h1{
+    width: 100%;
+    padding: 330px 10px 10px;
+    line-height: 1;
+    font-size: 33px;
+    text-align: center;
+  }
+
+  .desc{
+    width: 79%;
+    padding: 10px 0 0 60px;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .card1{
+    text-align: center;
+    padding: 0 0 0 0;
+  }
+}
